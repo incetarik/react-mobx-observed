@@ -288,6 +288,6 @@ export function observed<T>(params: IParams<T>): PropertyDecorator {
   }
 }
 
-export interface IHasSubscribe {
+export interface HasObservedValues {
   loadData(): void
 }

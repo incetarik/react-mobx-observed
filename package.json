@@ -1,6 +1,6 @@
 {
   "name": "react-mobx-observed",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "`@observed` decorator for MobX and React/React-Native projects.",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "decorator"
   ],
   "author": "Tarik Ince <incetarik@hotmail.com>",
-  "license": "Mozilla Public License Version 2.0",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/incetarik/react-mobx-observed/issues"
   },
