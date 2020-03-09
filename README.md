@@ -23,6 +23,10 @@ This decorator is also adds a function to the class called `loadData`. This is f
 
 This library uses `WeakMap`s to prevent modifications on the instance.
 
+If your component has functions `setError(error)` and `clearError()` for error reporting, and `startLoading()`, `stopLoading()` for loading state changes, they will be called automatically.
+So you can update your views accordingly.
+
+
 # Examples
 ```ts
 @observer

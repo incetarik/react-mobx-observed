@@ -278,7 +278,6 @@ export function observed<T>(params: IParams<T>): PropertyDecorator {
               computedValueDisposer?.()
               const funcToBeComputed = (computedBy ?? (source as () => Observable<T>)).bind(this ?? target)
               computedValueDisposer = computed(funcToBeComputed).observe(_change => {
-                console.log('Source of the', propertyName, 'has changed in computed, reloading data')
                 loadData.call(this ?? target)
               })
             }
