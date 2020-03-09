@@ -76,7 +76,7 @@ class VideoCommentsView extends React.PureComponent<{ video: IVideo }> {
     readonly source!: string
 
     // This will be updated whenever source is being updated as a side-effect of updating source.
-    @observed readonly thumbnail!: string
+    @observable readonly thumbnail!: string
   })
 
   render() {
