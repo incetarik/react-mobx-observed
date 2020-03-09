@@ -1,0 +1,26 @@
+{
+  "name": "react-mobx-observed",
+  "version": "1.0.0",
+  "description": "`@observed` decorator for MobX and React/React-Native projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incetarik/react-mobx-observed.git"
+  },
+  "keywords": [
+    "react",
+    "mobx",
+    "observed",
+    "decorator"
+  ],
+  "author": "Tarik Ince <incetarik@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/incetarik/react-mobx-observed/issues"
+  },
+  "homepage": "https://github.com/incetarik/react-mobx-observed#readme",
+  "peerDependencies": {}
+}
