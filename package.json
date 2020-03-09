@@ -2,9 +2,10 @@
   "name": "react-mobx-observed",
   "version": "1.0.0",
   "description": "`@observed` decorator for MobX and React/React-Native projects.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,18 @@
     "url": "https://github.com/incetarik/react-mobx-observed/issues"
   },
   "homepage": "https://github.com/incetarik/react-mobx-observed#readme",
-  "peerDependencies": {}
+  "peerDependencies": {
+    "react": "16.13.0",
+    "mobx": "5.15.4",
+    "mobx-react": "6.1.8",
+    "rxjs": "6.5.4"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3",
+    "react": "16.13.0",
+    "mobx": "5.15.4",
+    "mobx-react": "6.1.8",
+    "rxjs": "6.5.4"
+  },
+  "types": "dist/index.d.ts"
 }

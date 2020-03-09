@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "declaration": true,
+    "sourceRoot": ".",
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": ["ESNext", "DOM", "ESNext.AsyncIterable"],
+    "target": "ES5"
+  }
+}
