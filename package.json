@@ -1,6 +1,6 @@
 {
   "name": "react-mobx-observed",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "`@observed` decorator for MobX and React/React-Native projects.",
   "main": "dist/index.js",
   "scripts": {
@@ -29,12 +29,14 @@
     "mobx-react": "6.x",
     "rxjs": "6.x"
   },
+  "dependencies": {
+    "react": "16.x",
+    "mobx": "5.x",
+    "mobx-react": "6.x",
+    "rxjs": "6.x"
+  },
   "devDependencies": {
     "typescript": "3.8.3",
-    "react": "16.13.0",
-    "mobx": "5.15.4",
-    "mobx-react": "6.1.8",
-    "rxjs": "6.5.4"
   },
   "types": "dist/index.d.ts"
 }
